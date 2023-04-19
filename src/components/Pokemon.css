@@ -1,0 +1,19 @@
+.pokemon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pokemon-card {
+  background-color: #f8d030; /* Electric yellow for Pokemon theme */
+  border: 2px solid #3d7dca; /* Blue for border */
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-card img {
+  width: 100%;
+  max-width: 150px;
+}
